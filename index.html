@@ -10,6 +10,8 @@
 <meta property="og:description" content="Les nouvelles lois françaises par thème, uniquement avec des sources officielles.">
 <meta property="og:type" content="website">
 <link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
@@ -148,6 +150,7 @@ function renderList(){
 document.getElementById("q").addEventListener("input",renderList);
 try{var h=decodeURIComponent(location.hash.slice(1));if(TABS.indexOf(h)>=0)cur=h;}catch(e){}
 renderTabs();renderList();
+if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){});});}
 </script>
 </body>
 </html>
