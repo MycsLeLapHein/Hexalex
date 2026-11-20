@@ -1,10 +1,10 @@
-![Logo Exalex](logo.svg)
+![Logo Hhexalex](logo.svg)
 
-# Exalex
+# Hhexalex
 
 **Toutes les lois françaises**
 
-Exalex est une petite application web (un seul fichier HTML, sans dépendance à installer) qui présente les **nouvelles lois et nouveautés réglementaires en France**, classées par thème. Sous chaque fiche, l'**URL de la source officielle** est affichée pour lire le texte complet.
+Hhexalex est une petite application web (un seul fichier HTML, sans dépendance à installer) qui présente les **nouvelles lois et nouveautés réglementaires en France**, classées par thème. Sous chaque fiche, l'**URL de la source officielle** est affichée pour lire le texte complet.
 
 ## Fonctionnalités
 
@@ -66,4 +66,4 @@ README.md    Ce fichier
 
 ## Avertissement
 
-Exalex est un outil d'information : les résumés sont rédigés à partir des pages officielles liées, mais **ce n'est pas un conseil juridique**. Pour toute décision, se reporter au texte officiel et, si besoin, à un professionnel du droit.
+Hhexalex est un outil d'information : les résumés sont rédigés à partir des pages officielles liées, mais **ce n'est pas un conseil juridique**. Pour toute décision, se reporter au texte officiel et, si besoin, à un professionnel du droit.
